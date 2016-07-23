@@ -1,0 +1,60 @@
+﻿Build started 09/12/2015 14:03:14.
+     1>Project "M:\Mprof\Programming Games\DXframework - better camera\Engine\Engine\Engine.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\Engine.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cameraclass.cpp d3dclass.cpp Debugwindowclass.cpp fontclass.cpp fontshaderclass.cpp gameobject.cpp graphicsclass.cpp lightclass.cpp lightshaderclass.cpp main.cpp modelclass.cpp modelinfo.cpp normalmapshader.cpp particleshaderclass.cpp particlesystemclass.cpp renderlistclass.cpp scenegraphobjectclass.cpp skydomeclass.cpp skydomeshaderclasss.cpp systemclass.cpp textclass.cpp texturearrayclass.cpp textureclass.cpp textureshaderclass.cpp
+         cameraclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\cameraclass.h(11): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         d3dclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\d3dclass.h(23): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         Debugwindowclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\debugwindowclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         fontclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\fontclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         fontshaderclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\fontshaderclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         gameobject.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\gameobjectclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         graphicsclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\d3dclass.h(23): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         lightclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\lightclass.h(11): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         lightshaderclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\lightshaderclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         main.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\d3dclass.h(23): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         modelclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\modelclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         modelinfo.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\modelinfo.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         normalmapshader.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\normalmapshaderclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         particleshaderclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\particleshaderclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         particlesystemclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\particlesystemclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         renderlistclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\gameobjectclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         scenegraphobjectclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\modelclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         skydomeclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\skydomeclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         skydomeshaderclasss.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\skydomeshaderclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         systemclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\d3dclass.h(23): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         Compiling...
+         textclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\fontclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+         texturearrayclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\texturearrayclass.h(12): fatal error C1083: Cannot open include file: 'd3dx11tex.h': No such file or directory
+         textureclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\textureclass.h(12): fatal error C1083: Cannot open include file: 'd3dx11tex.h': No such file or directory
+         textureshaderclass.cpp
+     1>m:\mprof\programming games\dxframework - better camera\engine\engine\textureshaderclass.h(12): fatal error C1083: Cannot open include file: 'd3dx10math.h': No such file or directory
+     1>Done Building Project "M:\Mprof\Programming Games\DXframework - better camera\Engine\Engine\Engine.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.91
